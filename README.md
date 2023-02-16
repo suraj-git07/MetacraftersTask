@@ -1,13 +1,6 @@
-# Sample Hardhat Project
+# MetaCrafters Task
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
-Try running some of the following tasks:
+## CrowdFunding Smart Contract 
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+### A crowdfunding campaign where users can pledge funds to and claim funds from the contract
