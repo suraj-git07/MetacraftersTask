@@ -13,11 +13,11 @@ contract FundToken is
     UUPSUpgradeable
 {
     /// @custom:oz-upgrades-unsafe-allow constructor
-    constructor() {
-        _disableInitializers();
-    }
+    // constructor() {
+    //     _disableInitializers();
+    // }
 
-    function initialize() public initializer {
+    function initialize() external initializer {
         __ERC20_init("FundToken", "FTK");
         __Ownable_init();
         __UUPSUpgradeable_init();
